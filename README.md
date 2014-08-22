@@ -63,7 +63,7 @@ general_digital_plesk:
         $plesk = $this->get('general_digital_plesk.api');
 ```
 
-**Plesk API (http://download1.parallels.com/Plesk/PP12/12.0/Doc/en-US/online/plesk-api-rpc/index.htm) add new FTP user in a controller**
+**Plesk [API] (http://download1.parallels.com/Plesk/PP12/12.0/Doc/en-US/online/plesk-api-rpc/index.htm) add new FTP user in a controller**
 
 ``` php
 <?php
