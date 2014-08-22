@@ -54,3 +54,14 @@ general_digital_plesk:
     password: #plesk password
 ```
 
+## Usage
+
+**Using service**
+
+``` php
+<?php
+        $plesk = $this->get('general_digital_plesk.api');
+```
+
+
+
