@@ -8,3 +8,25 @@ GeneralDigitalPleskBundle is licensed under the MIT License - see the `Resources
 **Plesk API Method Supported**
 
 
+
+## Setup
+
+### Step 1: Download GeneralDigitalPleskBundle using composer
+
+Add GeneralDigitalPleskBundle in your composer.json:
+
+```js
+{
+    "require": {
+        "gd/plesk-bundle": "dev-master"
+    }
+}
+```
+Now tell composer to download the bundle by running the command:
+
+``` bash
+$ php composer.phar update gd/plesk-bundle
+```
+
+
+
