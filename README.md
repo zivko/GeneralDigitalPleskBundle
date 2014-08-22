@@ -6,3 +6,5 @@ Symfony2 bundle for [Parallels Plesk v 12](http://download1.parallels.com/Plesk/
 GeneralDigitalPleskBundle is licensed under the MIT License - see the `Resources/meta/LICENSE` file for details.
 
 **Plesk API Method Supported**
+
+
