@@ -28,5 +28,21 @@ Now tell composer to download the bundle by running the command:
 $ php composer.phar update gd/plesk-bundle
 ```
 
+### Step 2: Enable the bundle
+
+Enable the bundle in the kernel:
+
+``` php
+<?php
+// app/AppKernel.php
+
+public function registerBundles()
+{
+    $bundles = array(
+        // ...
+        new GeneralDigital\PleskBundle\GeneralDigitalPleskBundle(),
+    );
+}
+```
 
 
