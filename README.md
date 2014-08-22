@@ -73,8 +73,22 @@ general_digital_plesk:
 
 **Using Command Line Tools**
 
+The GeneralDigitalPleskBundle provides a number of command line utilities.Commands are available for the following tasks:
+
+1. Create a FTP User
+2. List FTP Users
+3. Delete a FTP User
+4. Create subdomain
+5. Delete subdomain
+
+**Note:**
+
+> You must have correctly installed and configured the GeneralDigitalPleskBundle before using
+> these commands.
+
+
 ``` bash
-$ php app/console plesk:user:create testuser p@ssword
+$ php app/console plesk:user:create testuser p@sswordSud12#
 ```
 
 
