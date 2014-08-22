@@ -1,0 +1,23 @@
+{
+    "name": "gd/plesk-bundle",
+    "type": "symfony-bundle",
+    "description": "plesk bundle",
+    "keywords": ["plesk","api"],
+    "homepage": "http://www.generaldigital.co.nz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zivko Sudarski",
+            "email": "zivko@generaldigital.co.nz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "GeneralDigital\\PleskBundle": "" }
+    },
+    "target-dir": "GeneralDigital/PleskBundle"
+}
