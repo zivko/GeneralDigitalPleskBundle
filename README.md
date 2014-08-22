@@ -96,6 +96,9 @@ The GeneralDigitalPleskBundle provides a number of command line utilities.Comman
 ``` bash
 $ php app/console plesk:user:create testuser p@sswordSud12#
 ```
+![alt tag](http://app.waitlistapp.com/plesk.png)
+
+
 
 **Note:**
 
