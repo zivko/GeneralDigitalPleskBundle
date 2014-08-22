@@ -71,4 +71,14 @@ general_digital_plesk:
          $api->addFTPUser($ftpUsername, $ftpPassword);
 ```
 
+**Using Command Line Tools**
+
+``` bash
+$ php app/console plesk:user:create testuser p@ssword
+```
+
+
+
+
+
 
