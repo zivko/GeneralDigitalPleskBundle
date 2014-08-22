@@ -6,6 +6,11 @@ Symfony2 bundle for [Parallels Plesk v 12](http://www.parallels.com/plesk/) API.
 GeneralDigitalPleskBundle is licensed under the MIT License - see the `Resources/meta/LICENSE` file for details.
 
 **Plesk API Method Supported**
+1. Create FTP User
+2. Delete FTP User
+3. List FTP users
+4. Create Subdomain
+5. Delete Subdomain
 
 
 
@@ -91,7 +96,9 @@ The GeneralDigitalPleskBundle provides a number of command line utilities.Comman
 $ php app/console plesk:user:create testuser p@sswordSud12#
 ```
 
+**Note:**
 
+> Bundle is still in development process.
 
 
 
