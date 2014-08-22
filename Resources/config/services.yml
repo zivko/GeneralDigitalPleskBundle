@@ -1,0 +1,10 @@
+parameters:
+    general_digital_plesk.service.class: GeneralDigital\PleskBundle\Services\Plesk
+    general_digital_plesk.host: null
+    general_digital_plesk.user: null
+    general_digital_plesk.password: null
+
+services:
+    general_digital_plesk.api:
+        class: %general_digital_plesk.service.class%
+        arguments: [%general_digital_plesk.host%, %general_digital_plesk.user%, %general_digital_plesk.password%]
