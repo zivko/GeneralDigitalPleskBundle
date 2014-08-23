@@ -1,7 +1,7 @@
 {
     "name": "gd/plesk-bundle",
     "type": "symfony-bundle",
-    "description": "plesk bundle",
+    "description": "Symfony2 Bundle for Parallels Plesk (v12) API.",
     "keywords": ["plesk","api"],
     "homepage": "http://www.generaldigital.co.nz",
     "license": "MIT",
