@@ -9,7 +9,7 @@
 * with this source code in the file LICENSE.
 */
 
-namespace GeneralDigital\PleskBundle\Tests;
+namespace GeneralDigital\PleskBundle\Tests\Services;
 
 use GeneralDigital\PleskBundle\Services\Plesk;
 
