@@ -9,11 +9,6 @@
 * with this source code in the file LICENSE.
 */
 
-/**
- * Test Plesk Service class
- *
- * @author Zivko Sudarski <zivko@generaldigital.co.nz>
- */
 namespace GeneralDigital\PleskBundle\Tests;
 
 use GeneralDigital\PleskBundle\Services\Plesk;
