@@ -13,7 +13,6 @@ namespace GeneralDigital\PleskBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\DomCrawler\Crawler;
@@ -78,7 +77,7 @@ class CreateFTPUserCommand extends ContainerAwareCommand
             $username = $this->getHelper('dialog')->askAndValidate(
                 $output,
                 'Please choose a FTP username:',
-                function($username){
+                function ($username) {
                   if (empty($username)) {
                       throw new \Exception('Username can not be empty');
                   }
@@ -94,7 +93,7 @@ class CreateFTPUserCommand extends ContainerAwareCommand
          $password = $this->getHelper('dialog')->askAndValidate(
              $output,
              'Please choose a FTP password:',
-             function($password){
+             function ($password) {
                if (empty($password)) {
                    throw new \Exception('Password can not be empty');
                }
