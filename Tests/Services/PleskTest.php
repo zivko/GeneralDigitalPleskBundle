@@ -13,6 +13,11 @@ namespace GeneralDigital\PleskBundle\Tests\Services;
 
 use GeneralDigital\PleskBundle\Services\Plesk;
 
+/**
+ * PleskTest
+ *
+ * @author Zivko Sudarski <zivko@generaldigital.co.nz>
+ */
 class PleskTest extends \PHPUnit_Framework_TestCase
 {
     /**
