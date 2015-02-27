@@ -4,7 +4,7 @@ GeneralDigitalPleskBundle
 
 Symfony2 bundle for [Parallels Plesk v 12](http://www.parallels.com/plesk/) API.
 
-[![knpbundles.com](http://knpbundles.com/zivko/GeneralDigitalPleskBundle/badge-short)](http://knpbundles.com/zivko/GeneralDigitalPleskBundle)
+
 
 
 GeneralDigitalPleskBundle is licensed under the MIT License - see the `Resources/meta/LICENSE` file for details.
